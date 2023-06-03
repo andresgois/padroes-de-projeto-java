@@ -138,3 +138,8 @@ graph TB;
 
 ![Lugares iguais](./asserts/singleton02.png)
 
+### Factory method
+> É usando quando você não quer especificar qual método deve ser utilizado, funciona através de interfaces
+
+
+
