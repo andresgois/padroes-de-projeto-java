@@ -84,3 +84,57 @@ graph TB;
 - Se q(x) ' – , a função q(x) – ' é uma propriedade demonstrável dos objetos x do tipo T, então q(y) ' - que é um outro objeto – ' deve ser verdadeiro para objetos Y do tipo S, se S for um subtipo de T"
 - Que, embora a herança favoreça o reaproveitamento de código, ela pode trazer efeitos colaterais quando não utilizada da maneira correta;
 - Que o Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema.
+
+## Design Pattern
+> Nome
+- Da uma ideia do problema que ele resolve
+> Problema
+- Problema em só
+> Solução
+- descrição técnica do desing pattern, quais classes envolvidas, propriedades etc..
+> Consequência
+- Benefícios e malefícios
+
+#### Tipos de padrões descritos pelo GOF
+> Padrão de criação
+- Padrões que abstraem o processo de instanciação
+    - Ex: factory
+> Padrão estrutural
+- Compõem classes e objetos em estrutura maiores.
+> Padrão comportamental
+- Definem responsabilidades entre objetos e classes.
+
+#### Exemplo de padrões
+> Criação
+- Abstract factory
+- Factory method
+- Singleton
+- Builder
+> Estrutural
+- Adapter
+- Decorator
+- Facade
+- MVC
+> Comportamento
+- State
+- Strategy
+
+
+
+### SINGLETON
+> Problema que resolve
+- Não permite que existe mais de uma instância de um objeto solta em nosso projeto.
+    - Conexão com o banco de dados
+- Exemplo caso ruim
+    - Cada instância está em um lugar diferente na memória
+
+![Lugares diferentes](./asserts/singleton01.png)
+
+- Muda o formato de instanciação
+
+![Lugares iguais](./asserts/singleton02.png)
+
+- Aplicação do Singleton
+
+![Lugares iguais](./asserts/singleton02.png)
+
