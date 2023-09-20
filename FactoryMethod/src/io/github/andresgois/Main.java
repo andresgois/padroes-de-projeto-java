@@ -9,7 +9,7 @@ public class Main {
     
     public static void main(String[] args) {
         String txt = JOptionPane.showInputDialog(null);
-        Mensagem sms = FactoryMensagem.getMensagem("email1");
+        Mensagem sms = FactoryMensagem.getMensagem("email");
         sms.enviar(txt);
     }
     
